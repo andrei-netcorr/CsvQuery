@@ -6,7 +6,5 @@ This ruled out simply using Java Streams API or CSVJDBC.
 Thus Mongo seemed to be the faster method though all have their merits and drawbacks.
 
 ### TODO
-- CommandLineRunner to import data
-- Service, DAO & model for csv record
-- Add fancy query to service and expose in controller
+- Date filter
 - logical operators and nested conditions
