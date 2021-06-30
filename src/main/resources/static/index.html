@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usage</title>
+</head>
+<body>
+<h1>Usage</h1>
+<pre>
+curl -X POST -H 'Content-Type: application/json' -i http://localhost:8080/api/v1/report --data '{
+  "filterBy": [
+    {
+      "field": "DATASOURCE",
+      "values": ["Facebook Ads"]
+    },
+    {
+      "field": "CAMPAIGN",
+      "values": ["SN_Essen", "SN_Brand Produkte"]
+    }
+  ],
+  "groupBy": "CAMPAIGN",
+  "orderBy": "CAMPAIGN",
+  "orderDir": "DESC"
+}
+'
+</pre>
+<strong>Note that depending on grouping, some fields might be unavailable.</strong>
+</body>
+</html>

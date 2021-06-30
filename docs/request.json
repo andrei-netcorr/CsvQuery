@@ -9,10 +9,7 @@
       "values": ["SN_Essen", "SN_Brand Produkte"]
     }
   ],
-  "groupBy": [
-    "CAMPAIGN"
-  ],
-  "orderBy": [
-
-  ]
+  "groupBy": "CAMPAIGN",
+  "orderBy": "CAMPAIGN",
+  "orderDir": "DESC"
 }
