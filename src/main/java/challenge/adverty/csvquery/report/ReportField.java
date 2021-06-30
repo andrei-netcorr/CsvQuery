@@ -6,16 +6,13 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum ReportField {
-    DATASOURCE("Datasource", true, true),
-    CAMPAIGN("Campaign", true, true),
-    DAY("Day", true, true),
-    WEEK("Week", true, true),
-    MONTH("Month", true, true),
-    CLICKS("Clicks", false, true),
-    IMPRESSIONS("Impressions", false, true),
-    CLICK_THROUGH_RATE("ClickThroughRate", false, true);
+    DATASOURCE("Datasource", true),
+    CAMPAIGN("Campaign", true),
+    DAY("Day", true),
+    CLICKS("Clicks", false),
+    IMPRESSIONS("Impressions", false),
+    CLICK_THROUGH_RATE("ClickThroughRate", false);
 
     private final String name;
     private final boolean canFilterBy;
-    private final boolean canGroupBy;
 }

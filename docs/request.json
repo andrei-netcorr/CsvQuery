@@ -1,42 +1,18 @@
-[
-  {
-    "columns": [
-      "DATASOURCE",
-      "CAMPAIGN"
-    ],
-    "filterBy": [],
-    "groupBy": [
-      "CAMPAIGN"
-    ],
-    "orderBy": [
-      "CLICK_THROUGH_RATE"
-    ]
-  },
-  {
-    "columns": [
-      "DATASOURCE",
-      "CAMPAIGN"
-    ],
-    "filterBy": [
-      {
-        "field": "DATASOURCE",
-        "value": "someDataSource"
-      },
-      {
-        "field": "CAMPAIGN",
-        "values": ["campaign1", "campaign2"]
-      },
-      {
-        "field": "IMPRESSIONS",
-        "intervalBegin": 1,
-        "intervalEnd": 2
-      }
-    ],
-    "groupBy": [
-      "CAMPAIGN"
-    ],
-    "orderBy": [
-      "CLICK_THROUGH_RATE"
-    ]
-  }
-]
+{
+  "filterBy": [
+    {
+      "field": "DATASOURCE",
+      "values": ["Facebook Ads"]
+    },
+    {
+      "field": "CAMPAIGN",
+      "values": ["SN_Essen", "SN_Brand Produkte"]
+    }
+  ],
+  "groupBy": [
+    "CAMPAIGN"
+  ],
+  "orderBy": [
+
+  ]
+}
